@@ -1,0 +1,34 @@
+{
+  "name": "portfolio-new",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "autoprefixer": "latest",
+    "next": "latest",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.56.1",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.2",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ]
+}

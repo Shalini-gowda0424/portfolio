@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the doodle hand-drawn aesthetic */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Example of a playful font */
+    background-color: #f9f9f9; /* Soft pastel background */
+    color: #333; /* Dark text for readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patrick Hand', cursive; /* Handwritten font for headings */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #4A90E2; /* Vibrant link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+.doodle {
+    background-image: url('/path/to/doodle-background.png'); /* Example doodle background */
+    background-size: cover;
+}
+
+.card {
+    border: 2px dashed #4A90E2; /* Doodle-style border for cards */
+    border-radius: 10px;
+    padding: 1rem;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.lightbox {
+    /* Styles for lightbox effect */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
